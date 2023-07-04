@@ -1,6 +1,6 @@
 # Javascript leetcode
 
-This is a repo where i practice javascript with leetcode solution
+This is a repo where i practice javascript with leetcode solutions
 
 ## Table of Contents
 ### Random
@@ -9,4 +9,5 @@ This is a repo where i practice javascript with leetcode solution
 
 ### Leetcode Learning Phase 1
 - [167. Two Sum II - Input Array Is Sorted](./leetcode/167.js)
+- [283. Move Zeroes](./leetcode/167.js)
 
