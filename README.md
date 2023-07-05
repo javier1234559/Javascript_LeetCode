@@ -10,4 +10,6 @@ This is a repo where i practice javascript with leetcode solutions
 ### Leetcode Learning Phase 1
 - [167. Two Sum II - Input Array Is Sorted](./leetcode/167.js)
 - [283. Move Zeroes](./leetcode/167.js)
+- [26. Remove Duplicates from Sorted Array I](./typescript/26.ts)
+- [80. Remove Duplicates from Sorted Array II](./typescript/80.ts)
 

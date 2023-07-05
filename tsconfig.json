@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./leetcode",
+    "rootDir": "./typescript",
+    "moduleDetection": "force"
+  }
+}
