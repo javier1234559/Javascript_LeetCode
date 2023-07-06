@@ -12,4 +12,6 @@ This is a repo where i practice javascript with leetcode solutions
 - [283. Move Zeroes](./leetcode/167.js)
 - [26. Remove Duplicates from Sorted Array I](./typescript/26.ts)
 - [80. Remove Duplicates from Sorted Array II](./typescript/80.ts)
+- [977. Squares of a Sorted Array](./typescript/977.ts)
+- [11. Container With Most Water](./typescript/11.ts)
 
