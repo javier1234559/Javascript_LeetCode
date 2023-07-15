@@ -2,7 +2,6 @@
 //Sliding window problem
 //https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
-
 function characterReplacement(s: string, k: number): number {
   //base case
   let arrayChar: string[] = s.split('');
@@ -18,13 +17,11 @@ function characterReplacement(s: string, k: number): number {
   let mostFreq: number = 0;
 
   while (right < n) {
-    //decrease or remove left character from map and shrink window
-    let getOrDefaultLeft: number = map.get(arrayChar[left]) || 0;
-    map.set(arrayChar[left], getOrDefaultLeft + 1);
-    mostFreq = Math.max(mostFreq, map.get(arrayChar[right]));
+    map.set(arrayChar[right], (map.get(arrayChar[right]) || 0) + 1);
+    mostFreq = Math.max(mostFreq, map.get(arrayChar[right])!);
 
-    if ((right - left + 1) - mostFreq > k) {
-      map.set(arrayChar[left], map.get(arrayChar[left]) - 1);
+    while ((right - left + 1) - mostFreq > k) {   //right-left+1 is the window size minus to mostFreq is the number must use k to replace
+      map.set(arrayChar[left], map.get(arrayChar[left])! - 1);
       left++;
     }
 
@@ -33,13 +30,5 @@ function characterReplacement(s: string, k: number): number {
   }
 
   return maxLengthWindow;
-};
 
-console.log(characterReplacement("AABABBA", 1))
-//AABABBA
-//  i
-//   j
-
-//ABBCAA
-//i
-// j  
+}
