@@ -6,6 +6,7 @@ This is a repo where i practice javascript with leetcode solutions
 > ❓ Random
 - [1920. Build Array from Permutation](./leetcode/1920.js)
 - [27. Remove Element](./leetcode/27.js)
+- [349. Intersection of Two Arrays](./leetcode/349.ts)
 
 ### Leetcode Learning Phase 1
 > 💡 Two Pointers
@@ -21,3 +22,10 @@ This is a repo where i practice javascript with leetcode solutions
 - [159. Longest Substring with At Most Two Distinct Characters](./typescript/159.ts) 
 - [3. Longest Substring Without Repeating Characters](./typescript/3.ts) 
 - [424. Longest Repeating Character Replacement](./typescript/424.ts) 
+
+> 💡 Binary Search 
+- [153. Find Minimum in Rotated Sorted Array](./typescript/153.ts)
+- [744. Find Smallest Letter Greater Than Target](./typescript/744.ts)
+
+> 💡 Fast Slow Pointers
+- [141. Linked List Cycle](./typescript/141.ts)
