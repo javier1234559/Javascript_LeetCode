@@ -29,3 +29,6 @@ This is a repo where i practice javascript with leetcode solutions
 
 > 💡 Fast Slow Pointers
 - [141. Linked List Cycle](./typescript/141.ts)
+
+> 💡 Merge Intervals
+- [56. Merge Intervals](./typescript/56.ts)
